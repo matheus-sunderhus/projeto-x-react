@@ -1,39 +1,41 @@
 {
-  "name": "projeto-x-react-20240424173154",
-  "bucket": "projeto-x-react-20240424173154",
+  "name": "projeto-x-react",
+  "bucket": "projeto-x-react",
   "preset": "react",
   "mode": "deliver",
   "env": "production",
-  "prefix": "20240424203259",
+  "prefix": "20240614143713",
   "not-first-run": true,
   "function": {
-    "id": 20820,
+    "id": 48699,
     "name": "__DEFAULT__",
     "file": ".edge/worker.js",
     "args": "./azion/args.json",
-    "instance-id": 20457,
+    "instance-id": 53166,
     "instance-name": "__DEFAULT__"
   },
   "application": {
-    "id": 1713999364,
+    "id": 1718370176,
     "name": "__DEFAULT__"
   },
   "domain": {
-    "id": 1713998136,
-    "name": "__DEFAULT__"
+    "id": 1718371585,
+    "name": "projeto-x-react",
+    "domain_name": "n4gwdzlq95.map.azionedge.net",
+    "url": "https://n4gwdzlq95.map.azionedge.net"
   },
   "rt-purge": {
     "purge_on_publish": true
   },
   "origin": [
     {
-      "origin-id": 127311,
-      "origin-key": "772a5f3a-7b6d-4748-845d-79a8e9275762",
-      "name": "projeto-x-react-20240424173154_single"
+      "origin-id": 370118,
+      "origin-key": "4d07cbe5-7408-4069-bfc2-f40affac0374",
+      "name": "projeto-x-react_single"
     },
     {
-      "origin-id": 127312,
-      "origin-key": "339922df-5edc-43d5-a441-49698af254f6",
+      "origin-id": 370119,
+      "origin-key": "abd3e00f-2891-4f45-9908-296947ead81d",
       "name": "origin-storage-default"
     }
   ],
@@ -41,16 +43,16 @@
     "created": false,
     "rules": [
       {
-        "id": 238755,
-        "name": "Main_Rule"
+        "id": 428464,
+        "name": "Set Storage Origin for All Requests"
       },
       {
-        "id": 238756,
-        "name": "Index_Rewrite_1"
+        "id": 428465,
+        "name": "Deliver Static Assets"
       },
       {
-        "id": 238757,
-        "name": "Index_Rewrite_2"
+        "id": 428466,
+        "name": "Redirect to index.html"
       }
     ]
   },
