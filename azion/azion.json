@@ -1,41 +1,41 @@
 {
-  "name": "projeto-x-react-20240614143908",
-  "bucket": "projeto-x-react-20240614143908",
+  "name": "projeto-x-react-20240619142446",
+  "bucket": "projeto-x-react-20240619142446",
   "preset": "react",
   "mode": "deliver",
   "env": "production",
-  "prefix": "20240614143907",
+  "prefix": "20240619142445",
   "not-first-run": true,
   "function": {
-    "id": 48700,
+    "id": 49040,
     "name": "__DEFAULT__",
     "file": ".edge/worker.js",
     "args": "./azion/args.json",
-    "instance-id": 53167,
+    "instance-id": 53498,
     "instance-name": "__DEFAULT__"
   },
   "application": {
-    "id": 1718370177,
+    "id": 1718801863,
     "name": "__DEFAULT__"
   },
   "domain": {
-    "id": 1718371586,
-    "name": "projeto-x-react-20240614143908",
-    "domain_name": "n3y6y8lw6w.map.azionedge.net",
-    "url": "https://n3y6y8lw6w.map.azionedge.net"
+    "id": 1718802693,
+    "name": "projeto-x-react-20240619142446",
+    "domain_name": "ot218zmpzu.map.azionedge.net",
+    "url": "https://ot218zmpzu.map.azionedge.net"
   },
   "rt-purge": {
     "purge_on_publish": true
   },
   "origin": [
     {
-      "origin-id": 370120,
-      "origin-key": "1dbd9655-e0c0-4320-bb97-7bf5cd789cce",
-      "name": "projeto-x-react-20240614143908_single"
+      "origin-id": 371986,
+      "origin-key": "5b5efda6-9fba-418c-9025-32ef2424df4b",
+      "name": "projeto-x-react-20240619142446_single"
     },
     {
-      "origin-id": 370121,
-      "origin-key": "6a60201d-d338-455a-98e0-fef59d2af60a",
+      "origin-id": 371987,
+      "origin-key": "89f47104-74d5-4b5a-b090-8abb5dcdb1e5",
       "name": "origin-storage-default"
     }
   ],
@@ -43,15 +43,15 @@
     "created": false,
     "rules": [
       {
-        "id": 428469,
+        "id": 430715,
         "name": "Set Storage Origin for All Requests"
       },
       {
-        "id": 428470,
+        "id": 430716,
         "name": "Deliver Static Assets"
       },
       {
-        "id": 428471,
+        "id": 430717,
         "name": "Redirect to index.html"
       }
     ]
